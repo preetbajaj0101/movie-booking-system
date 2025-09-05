@@ -5,6 +5,7 @@ __pycache__/
 .Python
 env/
 venv/
+*.pyc
 
 # Django
 *.log
@@ -15,6 +16,11 @@ staticfiles/
 
 # Environment variables
 .env
+.env.local
 
 # VS Code
 .vscode/
+*.code-workspace
+
+# Database
+*.sqlite3
